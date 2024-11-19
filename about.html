@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        
+    </header><hr>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h1>ABOUT ME</h1>
+        <p>            
+            Hi there! 👋 I'm Kavya Madhu, a student persuing Computer Science Engineering in CMR Institute of Technology with a passion for creativity and technology. My journey combines technical expertise with a love for artistic expression, making me a dynamic and multifaceted individual.
+            
+            When I'm not immersed in code, you can find me exploring my artistic side through digital art, painting, sketching, or playing soulful tunes on the keyboard. I also enjoy dancing, tackling challenging puzzles, and embarking on exciting travel adventures.
+            
+            In the tech space, I'm especially into:<br>
+            Frontend Wizardry: Designing sleek, modern, and user-friendly websites.<br>
+            Web & App Dev: Bringing ideas to life with interactive, next-gen experiences.<br>
+            Creative Tech: Merging visuals and code for graphics and UI magic.<br>
+            Cloud Adventures: Exploring scalable, cutting-edge solutions for the future.<br>
+            
+            I'm always eager to learn, grow, and take on new challenges that allow me to combine my artistic flair with my technical skills. Let's innovate and have fun along the way!!
+            <br><br>
+
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Kavya. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Add interactive behavior if needed, like smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+    </script>
+</body>
+</html>

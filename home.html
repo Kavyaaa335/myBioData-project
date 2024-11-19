@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h2>Kavya's Portfolio</h2>
+        <p>"Start where you are. Use what you have. Do what you can." </p>
+    </header>
+    <nav>
+        <ul>
+            
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1>Welcome to My Website</h1>
+        <p>Hello, I'm Kavya M, a passionate student.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Kavya. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Add interactive behavior if needed, like smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+    </script>
+</body>
+</html>

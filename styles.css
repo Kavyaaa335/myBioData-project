@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+strong{
+    font-size:x-large;
+    font-weight:700;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(2, 65, 65);
+    font-size: x-large;
+}
+h2{
+    font-size: xxx-large;
+    color: aliceblue;
+    font-family:'Gill Sans';
+    
+}
+header {
+    background-color: rgb(2, 65, 65);
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+hr{
+    color: lightblue;
+}
+nav{
+    background-color: rgb(195, 247, 228) ;
+    height:4cap;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color:rgb(2, 65, 65);
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+div{
+    padding: 10px;
+    border-left:rgb(2, 65, 65) 5px solid ;
+    background-color:rgb(131, 207, 207);
+    margin: 50px;
+    border-radius: 10px;
+    transition: transform 0.3s ease
+}
+div:hover {
+    transform: translateX(20px) translateY(-10px); /* Move on hover */
+}
+nav ul li {
+    margin: 0 1rem;
+}
+
+ul li a {
+    color:rgb(2, 65, 65) ;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    text-align: justify;
+}
+body{
+    background-color: rgb(139, 223, 217);
+}
+footer {
+    background-color: rgb(2, 65, 65);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
